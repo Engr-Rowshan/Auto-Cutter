@@ -49,7 +49,7 @@
             // 
             this.pic.Location = new System.Drawing.Point(-1, 1);
             this.pic.Name = "pic";
-            this.pic.Size = new System.Drawing.Size(305, 457);
+            this.pic.Size = new System.Drawing.Size(358, 664);
             this.pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic.TabIndex = 1;
             this.pic.TabStop = false;
@@ -65,13 +65,18 @@
             this.nUP.Name = "nUP";
             this.nUP.Size = new System.Drawing.Size(75, 20);
             this.nUP.TabIndex = 2;
+            this.nUP.Value = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
             this.nUP.ValueChanged += new System.EventHandler(this.nUP_ValueChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(742, 457);
+            this.ClientSize = new System.Drawing.Size(742, 660);
             this.Controls.Add(this.nUP);
             this.Controls.Add(this.pic);
             this.Controls.Add(this.btn);
